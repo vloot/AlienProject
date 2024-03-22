@@ -1,0 +1,3 @@
+[submodule "Assets/Scripts/Tools/Debug/ScreenLogger"]
+	path = Assets/Scripts/Tools/Debug/ScreenLogger
+	url = https://github.com/vloot/submodule-screen-logger

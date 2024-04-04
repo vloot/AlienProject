@@ -2,19 +2,30 @@ using UnityEngine;
 
 public class Bullet : MonoBehaviour, IPoolObject<Bullet>
 {
-    public bool _isFired;
+    [SerializeField] private Rigidbody rgBody;
+
+    [Header("Variables")]
+    public bool isFired;
     public Vector3 direction;
     public float creationTime;
 
+    public delegate void OnCollisionDelegate(Bullet bullet, Collision other);
+    public static OnCollisionDelegate OnCollision;
+
     public void Disable()
     {
-        _isFired = false;
+        isFired = false;
+        rgBody.isKinematic = false;
+        rgBody.velocity = Vector3.zero;
+        transform.rotation = Quaternion.identity;
+        rgBody.isKinematic = true;
         gameObject.SetActive(false);
     }
 
     public Bullet Enable()
     {
         gameObject.SetActive(true);
+        rgBody.isKinematic = false;
         return this;
     }
 
@@ -33,7 +44,12 @@ public class Bullet : MonoBehaviour, IPoolObject<Bullet>
         transform.rotation = rotation;
         creationTime = time;
         this.direction = direction;
-        _isFired = true;
+        isFired = true;
+    }
+
+    private void OnCollisionEnter(Collision other)
+    {
+        OnCollision?.Invoke(this, other);
     }
 }
 

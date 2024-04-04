@@ -1,4 +1,5 @@
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class BulletsController : MonoBehaviour
@@ -9,6 +10,9 @@ public class BulletsController : MonoBehaviour
     [SerializeField] private float fireRate;
     [SerializeField] private float bulletSpeed;
     [SerializeField] private float bulletLifetime;
+
+    [Header("Collision")]
+    [SerializeField] private LayerMask destructionLayerMask;
 
 
     private float _timeSinceLastBullet;
@@ -24,20 +28,26 @@ public class BulletsController : MonoBehaviour
         firedBullets = new List<Bullet>();
     }
 
+    private void Start()
+    {
+        Bullet.OnCollision += OnCollision;
+    }
+
     public void Fire(Vector3 spawnPosition, Vector3 direction, Quaternion rotation)
     {
-        if (Time.time - _timeSinceLastBullet <= fireRate) return;
+        var time = Time.time;
+
+        if (time - _timeSinceLastBullet <= fireRate) return;
 
         // fire a bullet
         var bullet = bulletsPool.Spawn(spawnPosition);
-        print("FIRE");
         var randomSpeedOffset = Random.Range(.85f, 1.25f);
-        bullet.Fire(direction * bulletSpeed * randomSpeedOffset, rotation, Time.time);
+        bullet.Fire(direction * bulletSpeed * randomSpeedOffset, rotation, time);
 
         firedBullets.Add(bullet);
 
         // update time
-        _timeSinceLastBullet = Time.time;
+        _timeSinceLastBullet = time;
     }
 
     private void FixedUpdate()
@@ -53,8 +63,20 @@ public class BulletsController : MonoBehaviour
                 DespawnBullet(bullet);
                 continue;
             }
+            else if (bullet.isFired)
+            {
+                bullet.transform.position += bullet.direction * Time.deltaTime;
+            }
+        }
+    }
 
-            bullet.transform.position += bullet.direction * Time.deltaTime;
+    private void OnCollision(Bullet bullet, Collision other)
+    {
+        if (destructionLayerMask.Contains(other.gameObject.layer))
+        {
+            // enemy or wall hit, despawn
+            bullet.isFired = false;
+            DespawnBullet(bullet);
         }
     }
 

@@ -5,7 +5,7 @@ public class PlayerRotation : MonoBehaviour
     private Camera _mainCamera;
     [SerializeField] private LayerMask terrainLayerMask;
     [SerializeField] private Transform cursorGroundIndicator;
-    [SerializeField] private Transform player;
+    [SerializeField] private Transform playerTransform;
 
     private Vector3 playerCursorTargetPos;
 
@@ -31,9 +31,9 @@ public class PlayerRotation : MonoBehaviour
         cursorGroundIndicator.position = cursorPositionGround;
 
         playerCursorTargetPos = cursorPosition;
-        playerCursorTargetPos.y = player.position.y;
+        playerCursorTargetPos.y = playerTransform.position.y;
 
-        player.LookAt(playerCursorTargetPos);
+        playerTransform.LookAt(playerCursorTargetPos);
     }
 
     private Vector3 GetCursorPosition()

@@ -4,8 +4,9 @@ using UnityEngine.InputSystem;
 public class PlayerAttack : MonoBehaviour
 {
     [SerializeField] private Transform playerTransform;
+    [SerializeField] private Transform spawnPoint;
     [SerializeField] private PlayerRotation playerRotation;
-    [SerializeField] private BulletsController bulletsController;
+    [SerializeField] private AbstractWeapon weapon;
 
     private Controls controls;
     private bool _isAttacking;
@@ -20,10 +21,7 @@ public class PlayerAttack : MonoBehaviour
     {
         if (!_isAttacking) return;
 
-        bulletsController.Fire(playerTransform.position, playerTransform.forward, playerTransform.rotation);
-
-        // Debug.DrawRay(playerTransform.position, playerRotation.PlayerCursorTargetPos * 10, Color.red);
-        Debug.DrawLine(playerTransform.position, playerRotation.PlayerCursorTargetPos * 10, Color.red);
+        weapon.Use(spawnPoint.position, playerTransform.forward, playerTransform.rotation);
     }
 
     private void OnEnable()

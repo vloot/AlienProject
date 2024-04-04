@@ -1,6 +1,6 @@
 [submodule "Assets/Scripts/Tools/Debug/ScreenLogger"]
 	path = Assets/Scripts/Tools/Debug/ScreenLogger
-	url = https://github.com/vloot/unity-submodule-screen-logger
+	url = https://github.com/vloot/unity-submodule-debug-logger
 [submodule "Assets/Scripts/Tools/ObjectPool"]
 	path = Assets/Scripts/Tools/ObjectPool
 	url = https://github.com/vloot/unity-submodule-object-pool

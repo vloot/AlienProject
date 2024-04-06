@@ -8,13 +8,21 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private Rigidbody playerRB;
 
     [Header("Movement")]
+    [SerializeField] private CharacterController controller;
     [SerializeField] private float moveSpeed;
 
-    [SerializeField] private float easeDuration;
-    [SerializeField] private float movementStartTS;
+    [Header("Dash")]
+    [SerializeField] private float dashForce;
+    [SerializeField] private float dashDuration;
+    [SerializeField] private float dashCooldown;
+    [SerializeField] private float dashMovementThreshold = 0.1f;
+    [SerializeField] private EasingFunction.EaseType easeType;
+    private Vector3 _dashDirection;
+    private bool _isDashing;
+    private float _dashTimeStart;
 
     private Vector2 inputVector;
-    private Vector3 velocityVector;
+    private Vector3 movementVector;
 
     private Controls controls;
 
@@ -22,45 +30,38 @@ public class PlayerMovement : MonoBehaviour
     private void Awake()
     {
         controls = new Controls();
-        movementStartTS = 0;
+        // movementStartTS = 0;
     }
 
     private void Start()
     {
-        DebugTools.ScreenLogger.Instance.AddLine("ease", "test");
     }
 
     private void Update()
     {
+        movementVector = GetVectorFromInput() * moveSpeed;
 
-    }
-
-    private void FixedUpdate()
-    {
-        if (movementStartTS != 0)
+        if (movementVector.magnitude > moveSpeed)
         {
-            // var movementDuration = Time.fixedTime - movementStartTS;
-            // var moveSpeedEased = EasingFunction.EaseOutQuint(0, easeDuration, movementDuration) * moveSpeed;
-            // velocityVector = new Vector3(inputVector.x, 0, inputVector.y) * moveSpeedEased;
-            // print(moveSpeedEased);
-        }
-        else
-        {
-            // velocityVector = new Vector3(inputVector.x, 0, inputVector.y) * moveSpeed;
+            movementVector = movementVector.normalized * moveSpeed;
         }
 
-        var movementDuration = Time.fixedTime - movementStartTS;
-        DebugTools.ScreenLogger.Instance.UpdateLine("ease", movementDuration.ToString());
-        // var moveSpeedEased = EasingFunction.EaseOutQuint(0, easeDuration, movementDuration) * moveSpeed;
+        var currentDashDuration = Time.time - _dashTimeStart;
 
-        velocityVector = new Vector3(inputVector.x, 0, inputVector.y) * moveSpeed;
-
-        if (velocityVector.magnitude > moveSpeed)
+        if (_isDashing && currentDashDuration <= dashDuration)
         {
-            velocityVector = velocityVector.normalized * moveSpeed;
+            var dashPercentage = currentDashDuration / dashDuration;
+            var newDashForce = EasingFunction.GetEasingFunction(easeType)(0, dashForce, dashPercentage);
+            movementVector = _dashDirection * newDashForce;
+        }
+        else if (_isDashing)
+        {
+            _isDashing = false;
         }
 
-        playerRB.velocity = velocityVector;
+        movementVector.y = 0;
+        controller.Move(movementVector * Time.deltaTime);
+        // playerRB.velocity = velocityVector;
     }
 
     private void OnEnable()
@@ -68,6 +69,7 @@ public class PlayerMovement : MonoBehaviour
         controls.Enable();
         controls.Main.Movement.performed += MovementPerformed;
         controls.Main.Movement.canceled += MovementCanceled;
+        controls.Main.Dash.performed += DashPerformed;
     }
 
     private void OnDisable()
@@ -75,23 +77,43 @@ public class PlayerMovement : MonoBehaviour
         controls.Disable();
         controls.Main.Movement.performed -= MovementPerformed;
         controls.Main.Movement.canceled -= MovementCanceled;
+        controls.Main.Dash.performed -= MovementCanceled;
     }
 
     private void MovementPerformed(InputAction.CallbackContext context)
     {
-        print("Movement performed");
+        ConsoleLogger.Log("Movement performed", "InputSystem");
         inputVector = context.ReadValue<Vector2>();
-
-        if (movementStartTS == 0)
-        {
-            movementStartTS = Time.fixedTime;
-        }
     }
 
     private void MovementCanceled(InputAction.CallbackContext context)
     {
-        print("Movement stopped");
+        ConsoleLogger.Log("Movement stopped", "InputSystem");
         inputVector = Vector2.zero;
-        movementStartTS = 0;
+    }
+
+    private void DashPerformed(InputAction.CallbackContext context)
+    {
+        if (_isDashing) return;
+        else if (Time.time - _dashTimeStart + dashDuration < dashCooldown) return;
+
+        ConsoleLogger.Log("Dash performed");
+        _dashTimeStart = Time.time;
+        _isDashing = true;
+
+
+        if (inputVector.magnitude >= dashMovementThreshold)
+        {
+            _dashDirection = GetVectorFromInput();
+        }
+        else
+        {
+            _dashDirection = transform.forward;
+        }
+    }
+
+    private Vector3 GetVectorFromInput()
+    {
+        return new Vector3(inputVector.x, 0, inputVector.y);
     }
 }

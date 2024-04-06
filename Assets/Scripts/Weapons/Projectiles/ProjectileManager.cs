@@ -8,10 +8,6 @@ public class ProjectileManager
     private List<AbstractProjectile> _spawnedProjectiles;
     private LayerMask _destructionLayerMask;
 
-    // event
-    // public delegate void OnCollisionDelegate(AbstractProjectile projectile, Collision other);
-    // public static OnCollisionDelegate OnCollision;
-
     public ProjectileManager(int poolStartSize, GameObject prefab, Transform spawnParent, LayerMask destructionMask)
     {
         _objectPool = new ObjectPool<AbstractProjectile>(poolStartSize, prefab, spawnParent, bulletSpawnedAction: (p) => p.manager = this);
@@ -63,7 +59,6 @@ public class ProjectileManager
     {
         if (_destructionLayerMask.Contains(other.gameObject.layer))
         {
-            Debug.Log("COLLIDED IN MANAGER");
             // enemy or wall hit, despawn
             projectile.isFired = false;
             DespawnProjectile(projectile);

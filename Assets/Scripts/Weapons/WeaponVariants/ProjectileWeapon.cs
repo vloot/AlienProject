@@ -22,10 +22,13 @@ public class ProjectileWeapon : AbstractWeapon
 
         if (time - _timeSinceLastBullet <= weaponStats.fireRatePerSecond) return;
 
+        var randAngle = Random.Range(weaponStats.spread.x, weaponStats.spread.y) * Mathf.Deg2Rad;
+        var newRotation = Quaternion.Euler(0, randAngle, 0);
+        var rotatedVector = newRotation * direction;
+
         // fire a bullet
         var projectile = projectileManager.SpawnProjectile(position);
-        var randomSpeedOffset = Random.Range(.85f, 1.25f);
-        projectile.Launch(direction * projectileStats.projectileSpeed * randomSpeedOffset, rotation, time);
+        projectile.Launch(rotatedVector * projectileStats.projectileSpeed, rotation, time);
 
         // update time
         _timeSinceLastBullet = time;

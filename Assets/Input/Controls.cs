@@ -53,6 +53,15 @@ public partial class @Controls: IInputActionCollection2, IDisposable
                     ""processors"": """",
                     ""interactions"": """",
                     ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""Dash"",
+                    ""type"": ""Button"",
+                    ""id"": ""5a09cfa8-bdf0-47be-af5d-efdd43cb125e"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
                 }
             ],
             ""bindings"": [
@@ -242,6 +251,17 @@ public partial class @Controls: IInputActionCollection2, IDisposable
                     ""action"": ""Attack (Secondary)"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""86f0bd9f-f4e5-4487-abaa-df229db5b70f"",
+                    ""path"": ""<Keyboard>/space"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Dash"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
                 }
             ]
         }
@@ -270,6 +290,7 @@ public partial class @Controls: IInputActionCollection2, IDisposable
         m_Main_Movement = m_Main.FindAction("Movement", throwIfNotFound: true);
         m_Main_AttackPrimary = m_Main.FindAction("Attack (Primary)", throwIfNotFound: true);
         m_Main_AttackSecondary = m_Main.FindAction("Attack (Secondary)", throwIfNotFound: true);
+        m_Main_Dash = m_Main.FindAction("Dash", throwIfNotFound: true);
     }
 
     public void Dispose()
@@ -334,6 +355,7 @@ public partial class @Controls: IInputActionCollection2, IDisposable
     private readonly InputAction m_Main_Movement;
     private readonly InputAction m_Main_AttackPrimary;
     private readonly InputAction m_Main_AttackSecondary;
+    private readonly InputAction m_Main_Dash;
     public struct MainActions
     {
         private @Controls m_Wrapper;
@@ -341,6 +363,7 @@ public partial class @Controls: IInputActionCollection2, IDisposable
         public InputAction @Movement => m_Wrapper.m_Main_Movement;
         public InputAction @AttackPrimary => m_Wrapper.m_Main_AttackPrimary;
         public InputAction @AttackSecondary => m_Wrapper.m_Main_AttackSecondary;
+        public InputAction @Dash => m_Wrapper.m_Main_Dash;
         public InputActionMap Get() { return m_Wrapper.m_Main; }
         public void Enable() { Get().Enable(); }
         public void Disable() { Get().Disable(); }
@@ -359,6 +382,9 @@ public partial class @Controls: IInputActionCollection2, IDisposable
             @AttackSecondary.started += instance.OnAttackSecondary;
             @AttackSecondary.performed += instance.OnAttackSecondary;
             @AttackSecondary.canceled += instance.OnAttackSecondary;
+            @Dash.started += instance.OnDash;
+            @Dash.performed += instance.OnDash;
+            @Dash.canceled += instance.OnDash;
         }
 
         private void UnregisterCallbacks(IMainActions instance)
@@ -372,6 +398,9 @@ public partial class @Controls: IInputActionCollection2, IDisposable
             @AttackSecondary.started -= instance.OnAttackSecondary;
             @AttackSecondary.performed -= instance.OnAttackSecondary;
             @AttackSecondary.canceled -= instance.OnAttackSecondary;
+            @Dash.started -= instance.OnDash;
+            @Dash.performed -= instance.OnDash;
+            @Dash.canceled -= instance.OnDash;
         }
 
         public void RemoveCallbacks(IMainActions instance)
@@ -403,5 +432,6 @@ public partial class @Controls: IInputActionCollection2, IDisposable
         void OnMovement(InputAction.CallbackContext context);
         void OnAttackPrimary(InputAction.CallbackContext context);
         void OnAttackSecondary(InputAction.CallbackContext context);
+        void OnDash(InputAction.CallbackContext context);
     }
 }

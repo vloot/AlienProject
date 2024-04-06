@@ -41,13 +41,13 @@ public class PlayerAttack : MonoBehaviour
 
     private void AttackPerformed(InputAction.CallbackContext context)
     {
-        print("_isAttacking = true;");
+        ConsoleLogger.Log("_isAttacking = true", "InputSystem");
         _isAttacking = true;
     }
 
     private void AttackCanceled(InputAction.CallbackContext context)
     {
-        print("_isAttacking = false;");
+        ConsoleLogger.Log("_isAttacking = false", "InputSystem");
         _isAttacking = false;
     }
 }

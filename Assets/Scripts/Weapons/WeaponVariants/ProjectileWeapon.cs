@@ -20,7 +20,7 @@ public class ProjectileWeapon : AbstractWeapon
     {
         var time = Time.time;
 
-        if (time - _timeSinceLastBullet <= weaponStats.fireRatePerSecond) return;
+        if (!CanFire(time)) return;
 
         var randAngle = Random.Range(weaponStats.spread.x, weaponStats.spread.y) * Mathf.Deg2Rad;
         var newRotation = Quaternion.Euler(0, randAngle, 0);

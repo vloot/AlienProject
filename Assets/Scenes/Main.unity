@@ -264,13 +264,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 3852661}
 --- !u!1 &5348414
 GameObject:
@@ -413,13 +412,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 5348419}
 --- !u!1 &14737257
 GameObject:
@@ -562,13 +560,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 14737262}
 --- !u!1 &17780727
 GameObject:
@@ -778,13 +775,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 24040325}
 --- !u!1 &27987810
 GameObject:
@@ -927,13 +923,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 27987815}
 --- !u!1 &32349537
 GameObject:
@@ -1076,13 +1071,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 32349542}
 --- !u!1 &34221146
 GameObject:
@@ -1132,13 +1126,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 34221149}
 --- !u!195 &34221149
 NavMeshAgent:
@@ -1374,13 +1367,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 49431978}
 --- !u!1 &50279690
 GameObject:
@@ -1523,13 +1515,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 50279695}
 --- !u!1 &50395711
 GameObject:
@@ -1777,13 +1768,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 54164512}
 --- !u!1 &58610340
 GameObject:
@@ -1926,13 +1916,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 58610345}
 --- !u!1 &62806277
 GameObject:
@@ -2075,13 +2064,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 62806282}
 --- !u!1 &66861483
 GameObject:
@@ -2094,7 +2082,7 @@ GameObject:
   - component: {fileID: 66861485}
   - component: {fileID: 66861484}
   m_Layer: 0
-  m_Name: New Wepon System
+  m_Name: Projectile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2116,9 +2104,11 @@ MonoBehaviour:
     weaponType: 1
     fireRatePerSecond: 0.05
     spread: {x: -200, y: 200}
+    damage: 1
   destructionLayerMask:
     serializedVersion: 2
     m_Bits: 512
+  weaponsManager: {fileID: 0}
   projectileStats:
     projectileSpeed: 40
     projectileLifetime: 1.5
@@ -2132,13 +2122,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 66861483}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_Father: {fileID: 601741502}
+  m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &81835087
 GameObject:
@@ -2281,13 +2271,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 81835092}
 --- !u!1 &85816554
 GameObject:
@@ -2430,13 +2419,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 85816559}
 --- !u!1 &91606571
 GameObject:
@@ -2579,13 +2567,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 91606576}
 --- !u!1 &92948860
 GameObject:
@@ -2728,13 +2715,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 92948865}
 --- !u!1 &100888318
 GameObject:
@@ -2877,13 +2863,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 100888323}
 --- !u!1 &101277645
 GameObject:
@@ -3026,13 +3011,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 101277650}
 --- !u!1 &102371347
 GameObject:
@@ -3175,13 +3159,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 102371352}
 --- !u!1 &121688274
 GameObject:
@@ -3429,13 +3412,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 134887711}
 --- !u!1 &136484199
 GameObject:
@@ -3578,13 +3560,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 136484204}
 --- !u!1 &144585614
 GameObject:
@@ -3727,13 +3708,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 144585619}
 --- !u!1 &145192085
 GameObject:
@@ -3876,13 +3856,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 145192090}
 --- !u!1 &147681699
 GameObject:
@@ -4280,13 +4259,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 153091041}
 --- !u!1 &161218986
 GameObject:
@@ -4429,13 +4407,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 161218991}
 --- !u!1 &161779794
 GameObject:
@@ -4578,13 +4555,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 161779799}
 --- !u!1 &170990297
 GameObject:
@@ -4727,13 +4703,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 170990302}
 --- !u!1 &172386775
 GameObject:
@@ -4876,13 +4851,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 172386780}
 --- !u!1 &175060822
 GameObject:
@@ -5025,13 +4999,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 175060827}
 --- !u!1 &176854868
 GameObject:
@@ -5174,13 +5147,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 176854873}
 --- !u!1 &179758525
 GameObject:
@@ -5323,13 +5295,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 179758530}
 --- !u!1 &185274801
 GameObject:
@@ -5472,13 +5443,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 185274806}
 --- !u!1 &202136639
 GameObject:
@@ -5621,13 +5591,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 202136644}
 --- !u!1 &208892608
 GameObject:
@@ -5770,13 +5739,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 208892613}
 --- !u!1 &209142390
 GameObject:
@@ -5919,13 +5887,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 209142395}
 --- !u!1 &210637404
 GameObject:
@@ -6068,13 +6035,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 210637409}
 --- !u!1 &212124615
 GameObject:
@@ -6217,13 +6183,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 212124620}
 --- !u!1 &216828970
 GameObject:
@@ -6366,13 +6331,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 216828975}
 --- !u!1 &217388942
 GameObject:
@@ -6515,13 +6479,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 217388947}
 --- !u!1 &225517107
 GameObject:
@@ -6664,13 +6627,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 225517112}
 --- !u!1 &227348929
 GameObject:
@@ -6813,13 +6775,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 227348934}
 --- !u!1 &233633449
 GameObject:
@@ -6962,13 +6923,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 233633454}
 --- !u!1 &241205004
 GameObject:
@@ -7111,13 +7071,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 241205009}
 --- !u!1 &244886233
 GameObject:
@@ -7239,7 +7198,7 @@ MonoBehaviour:
   playerTransform: {fileID: 244886234}
   spawnPoint: {fileID: 1845329739}
   playerRotation: {fileID: 244886239}
-  weapon: {fileID: 66861484}
+  weapon: {fileID: 360611752}
 --- !u!114 &244886241
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7428,13 +7387,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 253127742}
 --- !u!1 &261253518
 GameObject:
@@ -7577,13 +7535,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 261253523}
 --- !u!1 &262357178
 GameObject:
@@ -7726,13 +7683,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 262357183}
 --- !u!1 &262516925
 GameObject:
@@ -7875,13 +7831,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 262516930}
 --- !u!1 &282281717
 GameObject:
@@ -8024,13 +7979,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 282281722}
 --- !u!1 &288365811
 GameObject:
@@ -8173,13 +8127,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 288365816}
 --- !u!1 &296065263
 GameObject:
@@ -8322,13 +8275,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 296065268}
 --- !u!1 &302962700
 GameObject:
@@ -8471,13 +8423,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 302962705}
 --- !u!1 &305189829
 GameObject:
@@ -8620,13 +8571,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 305189834}
 --- !u!1 &305842560
 GameObject:
@@ -8769,13 +8719,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 305842565}
 --- !u!1 &313158501
 GameObject:
@@ -8918,13 +8867,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 313158506}
 --- !u!1 &313970369
 GameObject:
@@ -9067,13 +9015,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 313970374}
 --- !u!1 &331910563
 GameObject:
@@ -9216,13 +9163,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 331910568}
 --- !u!1 &336624056
 GameObject:
@@ -9365,13 +9311,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 336624061}
 --- !u!1 &337218675
 GameObject:
@@ -9514,13 +9459,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 337218680}
 --- !u!1 &341930913
 GameObject:
@@ -9663,13 +9607,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 341930918}
 --- !u!1 &348343269
 GameObject:
@@ -9812,13 +9755,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 348343274}
 --- !u!1 &351482662
 GameObject:
@@ -9961,13 +9903,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 351482667}
 --- !u!1 &357610231
 GameObject:
@@ -10110,14 +10051,89 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 357610236}
+--- !u!1 &360611750
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 360611753}
+  - component: {fileID: 360611752}
+  - component: {fileID: 360611751}
+  m_Layer: 0
+  m_Name: HitscanWeapon
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &360611751
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 360611750}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0ae74eadff9c1d449366ceadd7635b4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  trailDuration: 1
+  prefab: {fileID: 1975663714}
+  spawnParent: {fileID: 1581765650}
+  initSize: 20
+  increaseFactor: 10
+--- !u!114 &360611752
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 360611750}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c6824ddcdfb3b304080aebe42bf898c1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  weaponStats:
+    weaponType: 1
+    fireRatePerSecond: 0.1
+    spread: {x: -0.1, y: 0.1}
+    damage: 1
+  destructionLayerMask:
+    serializedVersion: 2
+    m_Bits: 832
+  weaponsManager: {fileID: 601741503}
+  maxDistance: 1000
+  hitLayerMask:
+    serializedVersion: 2
+    m_Bits: 768
+  hitscanVisuals: {fileID: 360611751}
+--- !u!4 &360611753
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 360611750}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 780733047}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &379650463
 GameObject:
   m_ObjectHideFlags: 0
@@ -10259,13 +10275,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 379650468}
 --- !u!1 &380311713
 GameObject:
@@ -10408,13 +10423,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 380311718}
 --- !u!1 &381792593
 GameObject:
@@ -10557,13 +10571,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 381792598}
 --- !u!1 &391397231
 GameObject:
@@ -10706,13 +10719,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 391397236}
 --- !u!1 &400597311
 GameObject:
@@ -10855,13 +10867,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 400597316}
 --- !u!1 &403693184
 GameObject:
@@ -11004,13 +11015,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 403693189}
 --- !u!1 &404187130
 GameObject:
@@ -11153,13 +11163,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 404187135}
 --- !u!1 &405913251
 GameObject:
@@ -11302,13 +11311,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 405913256}
 --- !u!1 &406090439
 GameObject:
@@ -11451,13 +11459,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 406090444}
 --- !u!1 &409592231
 GameObject:
@@ -11600,13 +11607,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 409592236}
 --- !u!1 &415650687
 GameObject:
@@ -11749,13 +11755,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 415650692}
 --- !u!1 &418962058
 GameObject:
@@ -11898,13 +11903,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 418962063}
 --- !u!1 &443375966
 GameObject:
@@ -12047,13 +12051,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 443375971}
 --- !u!1 &445325146
 GameObject:
@@ -12196,13 +12199,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 445325151}
 --- !u!1 &449307356
 GameObject:
@@ -12345,13 +12347,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 449307361}
 --- !u!1 &452985962
 GameObject:
@@ -12494,13 +12495,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 452985967}
 --- !u!1 &456253491
 GameObject:
@@ -12643,13 +12643,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 456253496}
 --- !u!1 &466637412
 GameObject:
@@ -12792,13 +12791,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 466637417}
 --- !u!1 &467549542
 GameObject:
@@ -12941,13 +12939,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 467549547}
 --- !u!1 &470414499
 GameObject:
@@ -13090,13 +13087,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 470414504}
 --- !u!1 &472274009
 GameObject:
@@ -13344,13 +13340,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 480728447}
 --- !u!1 &491233762
 GameObject:
@@ -13493,13 +13488,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 491233767}
 --- !u!1 &492815195
 GameObject:
@@ -13642,14 +13636,118 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 492815200}
+--- !u!1 &497202153
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 497202154}
+  - component: {fileID: 497202157}
+  - component: {fileID: 497202156}
+  - component: {fileID: 497202155}
+  m_Layer: 9
+  m_Name: Border 2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &497202154
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 497202153}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 50.18, y: 0.5, z: 0}
+  m_LocalScale: {x: 2, y: 1.5307, z: 104.5019}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1695241265}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &497202155
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 497202153}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!23 &497202156
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 497202153}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 176b3c5f6f6b30549bd0d9fcce8b585b, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &497202157
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 497202153}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1 &500215539
 GameObject:
   m_ObjectHideFlags: 0
@@ -13791,13 +13889,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 500215544}
 --- !u!1 &509221253
 GameObject:
@@ -13940,13 +14037,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 509221258}
 --- !u!1 &518652445
 GameObject:
@@ -14089,13 +14185,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 518652450}
 --- !u!1 &520423990
 GameObject:
@@ -14238,13 +14333,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 520423995}
 --- !u!1 &526633648
 GameObject:
@@ -14387,13 +14481,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 526633653}
 --- !u!1 &534204330
 GameObject:
@@ -14536,13 +14629,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 534204335}
 --- !u!1 &538536909
 GameObject:
@@ -14685,13 +14777,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 538536914}
 --- !u!1 &548343371
 GameObject:
@@ -14834,13 +14925,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 548343376}
 --- !u!1 &550747640
 GameObject:
@@ -14983,13 +15073,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 550747645}
 --- !u!1 &560819982
 GameObject:
@@ -15132,13 +15221,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 560819987}
 --- !u!1 &565179393
 GameObject:
@@ -15281,13 +15369,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 565179398}
 --- !u!1 &573380246
 GameObject:
@@ -15430,13 +15517,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 573380251}
 --- !u!1 &577349029
 GameObject:
@@ -15579,13 +15665,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 577349034}
 --- !u!1 &578587753
 GameObject:
@@ -15728,13 +15813,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 578587758}
 --- !u!1 &586979451
 GameObject:
@@ -15877,13 +15961,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 586979456}
 --- !u!1 &589928832
 GameObject:
@@ -16026,13 +16109,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 589928837}
 --- !u!1 &592422716
 GameObject:
@@ -16175,13 +16257,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 592422721}
 --- !u!1 &595293723
 GameObject:
@@ -16430,13 +16511,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 596399340}
 --- !u!1 &601741501
 GameObject:
@@ -16447,6 +16527,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 601741502}
+  - component: {fileID: 601741503}
   m_Layer: 0
   m_Name: Weapons
   m_TagString: Untagged
@@ -16466,10 +16547,25 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 1591354106}
+  - {fileID: 66861485}
+  - {fileID: 780733047}
   m_Father: {fileID: 0}
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &601741503
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 601741501}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 149df0705fd23df41adfa5184e7c8925, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemyManager: {fileID: 1188940189}
+  currentWeapon: {fileID: 360611752}
 --- !u!1 &614206193
 GameObject:
   m_ObjectHideFlags: 0
@@ -16611,13 +16707,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 614206198}
 --- !u!1 &615602767
 GameObject:
@@ -16760,13 +16855,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 615602772}
 --- !u!1 &616993072
 GameObject:
@@ -16909,13 +17003,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 616993077}
 --- !u!1 &620129402
 GameObject:
@@ -17058,13 +17151,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 620129407}
 --- !u!1 &620675409
 GameObject:
@@ -17207,13 +17299,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 620675414}
 --- !u!1 &624155290
 GameObject:
@@ -17356,13 +17447,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 624155295}
 --- !u!1 &627984606
 GameObject:
@@ -17505,13 +17595,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 627984611}
 --- !u!1 &630455542
 GameObject:
@@ -17654,13 +17743,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 630455547}
 --- !u!1 &630661993
 GameObject:
@@ -17803,13 +17891,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 630661998}
 --- !u!1 &646916883
 GameObject:
@@ -17952,13 +18039,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 646916888}
 --- !u!1 &648395914
 GameObject:
@@ -18101,13 +18187,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 648395919}
 --- !u!1 &652433437
 GameObject:
@@ -18250,13 +18335,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 652433442}
 --- !u!1 &657061395
 GameObject:
@@ -18399,13 +18483,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 657061400}
 --- !u!1 &659187657
 GameObject:
@@ -18548,13 +18631,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 659187662}
 --- !u!1 &663017022
 GameObject:
@@ -18697,13 +18779,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 663017027}
 --- !u!1 &664839283
 GameObject:
@@ -18846,13 +18927,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 664839288}
 --- !u!1 &671501705
 GameObject:
@@ -18995,13 +19075,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 671501710}
 --- !u!1 &671767090
 GameObject:
@@ -19144,13 +19223,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 671767095}
 --- !u!1 &674191450
 GameObject:
@@ -19293,13 +19371,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 674191455}
 --- !u!1 &696136701
 GameObject:
@@ -19442,13 +19519,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 696136706}
 --- !u!1 &705507993
 GameObject:
@@ -19709,13 +19785,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 706784930}
 --- !u!1 &707352381
 GameObject:
@@ -19858,13 +19933,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 707352386}
 --- !u!1 &711213409
 GameObject:
@@ -20007,13 +20081,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 711213414}
 --- !u!1 &711912493
 GameObject:
@@ -20239,13 +20312,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 726230977}
 --- !u!1 &737787470
 GameObject:
@@ -20388,13 +20460,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 737787475}
 --- !u!1 &742430116
 GameObject:
@@ -20537,13 +20608,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 742430121}
 --- !u!1 &756684095
 GameObject:
@@ -20686,13 +20756,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 756684100}
 --- !u!1 &757995598
 GameObject:
@@ -20835,13 +20904,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 757995603}
 --- !u!1 &770620881
 GameObject:
@@ -20984,13 +21052,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 770620886}
 --- !u!1 &772152886
 GameObject:
@@ -21133,13 +21200,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 772152891}
 --- !u!1 &773063154
 GameObject:
@@ -21282,14 +21348,46 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 773063159}
+--- !u!1 &780733046
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 780733047}
+  m_Layer: 0
+  m_Name: Hitscan
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &780733047
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 780733046}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 360611753}
+  - {fileID: 1581765650}
+  m_Father: {fileID: 601741502}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &785639003
 GameObject:
   m_ObjectHideFlags: 0
@@ -21431,13 +21529,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 785639008}
 --- !u!1 &785797156
 GameObject:
@@ -21580,13 +21677,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 785797161}
 --- !u!1 &805661173
 GameObject:
@@ -21729,13 +21825,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 805661178}
 --- !u!1 &813800694
 GameObject:
@@ -21878,13 +21973,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 813800699}
 --- !u!1 &814026790
 GameObject:
@@ -22027,13 +22121,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 814026795}
 --- !u!1 &817726251
 GameObject:
@@ -22176,13 +22269,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 817726256}
 --- !u!1 &819265021
 GameObject:
@@ -22325,13 +22417,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 819265026}
 --- !u!1 &827358478
 GameObject:
@@ -22474,13 +22565,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 827358483}
 --- !u!1 &835117430
 GameObject:
@@ -22623,13 +22713,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 835117435}
 --- !u!1 &853554033
 GameObject:
@@ -22772,13 +22861,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 853554038}
 --- !u!1 &856688047
 GameObject:
@@ -22921,13 +23009,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 856688052}
 --- !u!1 &865766686
 GameObject:
@@ -23070,13 +23157,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 865766691}
 --- !u!1 &870572825
 GameObject:
@@ -23219,13 +23305,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 870572830}
 --- !u!1 &875224470
 GameObject:
@@ -23368,13 +23453,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 875224475}
 --- !u!1 &879250536
 GameObject:
@@ -23517,13 +23601,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 879250541}
 --- !u!1 &881487479
 GameObject:
@@ -23666,13 +23749,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 881487484}
 --- !u!1 &883283779
 GameObject:
@@ -23815,13 +23897,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 883283784}
 --- !u!1 &883663907
 GameObject:
@@ -23964,13 +24045,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 883663912}
 --- !u!1 &885117843
 GameObject:
@@ -24113,13 +24193,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 885117848}
 --- !u!1 &887007269
 GameObject:
@@ -24262,13 +24341,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 887007274}
 --- !u!1 &888153982
 GameObject:
@@ -24411,13 +24489,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 888153987}
 --- !u!1 &889209092
 GameObject:
@@ -24560,13 +24637,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 889209097}
 --- !u!1 &890113940
 GameObject:
@@ -24709,13 +24785,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 890113945}
 --- !u!1 &891098538
 GameObject:
@@ -24858,13 +24933,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 891098543}
 --- !u!1 &891135977
 GameObject:
@@ -25007,13 +25081,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 891135982}
 --- !u!1 &893312385
 GameObject:
@@ -25156,13 +25229,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 893312390}
 --- !u!1 &908069137
 GameObject:
@@ -25305,13 +25377,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 908069142}
 --- !u!1 &919626211
 GameObject:
@@ -25454,13 +25525,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 919626216}
 --- !u!1 &929679593
 GameObject:
@@ -25603,13 +25673,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 929679598}
 --- !u!1 &933112099
 GameObject:
@@ -25752,13 +25821,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 933112104}
 --- !u!1 &933560632
 GameObject:
@@ -25901,13 +25969,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 933560637}
 --- !u!1 &939176191
 GameObject:
@@ -26050,13 +26117,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 939176196}
 --- !u!1 &939486679
 GameObject:
@@ -26199,13 +26265,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 939486684}
 --- !u!1 &940029374
 GameObject:
@@ -26348,13 +26413,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 940029379}
 --- !u!1 &949786985
 GameObject:
@@ -26497,13 +26561,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 949786990}
 --- !u!1 &961511943
 GameObject:
@@ -26646,13 +26709,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 961511948}
 --- !u!1 &963194225
 GameObject:
@@ -26903,13 +26965,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 967436602}
 --- !u!1 &972209570
 GameObject:
@@ -27052,13 +27113,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 972209575}
 --- !u!1 &983320385
 GameObject:
@@ -27201,13 +27261,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 983320390}
 --- !u!1 &998952679
 GameObject:
@@ -27350,13 +27409,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 998952684}
 --- !u!1 &1003228380
 GameObject:
@@ -27499,13 +27557,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 1003228385}
 --- !u!1 &1013628785
 GameObject:
@@ -27648,13 +27705,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 1013628790}
 --- !u!1 &1014575778
 GameObject:
@@ -27797,13 +27853,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 1014575783}
 --- !u!1 &1016138899
 GameObject:
@@ -27978,13 +28033,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 1017630574}
 --- !u!1 &1018873301
 GameObject:
@@ -28127,13 +28181,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 1018873306}
 --- !u!1 &1025328212
 GameObject:
@@ -28276,13 +28329,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 1025328217}
 --- !u!1 &1033512726
 GameObject:
@@ -28425,13 +28477,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 1033512731}
 --- !u!1 &1035929398
 GameObject:
@@ -28574,13 +28625,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 1035929403}
 --- !u!1 &1047449031
 GameObject:
@@ -28723,13 +28773,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 1047449036}
 --- !u!1 &1059539955
 GameObject:
@@ -28872,13 +28921,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 1059539960}
 --- !u!1 &1069845261
 GameObject:
@@ -29021,13 +29069,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 1069845266}
 --- !u!1 &1071502451
 GameObject:
@@ -29170,13 +29217,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 1071502456}
 --- !u!1 &1092121910
 GameObject:
@@ -29319,13 +29365,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 1092121915}
 --- !u!1 &1094294804
 GameObject:
@@ -29468,13 +29513,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 1094294809}
 --- !u!1 &1100053809
 GameObject:
@@ -29617,13 +29661,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 1100053814}
 --- !u!1 &1100367845
 GameObject:
@@ -29766,13 +29809,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 1100367850}
 --- !u!1 &1108501935
 GameObject:
@@ -29915,13 +29957,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 1108501940}
 --- !u!1 &1111625391
 GameObject:
@@ -30064,13 +30105,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 1111625396}
 --- !u!1 &1111882287
 GameObject:
@@ -30213,13 +30253,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 1111882292}
 --- !u!1 &1119773063
 GameObject:
@@ -30362,13 +30401,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 1119773068}
 --- !u!1 &1127106513
 GameObject:
@@ -30511,13 +30549,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 1127106518}
 --- !u!1 &1130056812
 GameObject:
@@ -30660,13 +30697,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 1130056817}
 --- !u!1 &1131076557
 GameObject:
@@ -30809,13 +30845,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 1131076562}
 --- !u!1 &1135553062
 GameObject:
@@ -30958,13 +30993,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 1135553067}
 --- !u!1 &1138294309
 GameObject:
@@ -31107,13 +31141,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 1138294314}
 --- !u!1 &1141359397
 GameObject:
@@ -31256,13 +31289,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 1141359402}
 --- !u!1 &1144122090
 GameObject:
@@ -31405,13 +31437,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 1144122095}
 --- !u!1 &1145024451
 GameObject:
@@ -31554,13 +31585,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 1145024456}
 --- !u!1 &1146253849
 GameObject:
@@ -31703,13 +31733,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 1146253854}
 --- !u!1 &1149791513
 GameObject:
@@ -31852,13 +31881,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 1149791518}
 --- !u!1 &1156184641
 GameObject:
@@ -32056,13 +32084,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 1164898088}
 --- !u!1 &1166204588
 GameObject:
@@ -32205,13 +32232,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 1166204593}
 --- !u!1 &1166239243
 GameObject:
@@ -32354,13 +32380,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 1166239248}
 --- !u!1 &1175679811
 GameObject:
@@ -32503,13 +32528,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 1175679816}
 --- !u!1 &1188940186
 GameObject:
@@ -32521,13 +32545,14 @@ GameObject:
   m_Component:
   - component: {fileID: 1188940188}
   - component: {fileID: 1188940187}
+  - component: {fileID: 1188940189}
   m_Layer: 0
   m_Name: Enemies
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1188940187
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -32535,7 +32560,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1188940186}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 396f949fc62cacb4a9e7fcc4ec0c2f2f, type: 3}
   m_Name: 
@@ -32957,6 +32982,128 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1188940189
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1188940186}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 06bd1c3529c31fc4fa323bb88f5f46c8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  weaponsManager: {fileID: 601741503}
+  projectilesMask:
+    serializedVersion: 2
+    m_Bits: 1024
+  playerTransform: {fileID: 244886234}
+--- !u!1 &1197502906
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1197502907}
+  - component: {fileID: 1197502910}
+  - component: {fileID: 1197502909}
+  - component: {fileID: 1197502908}
+  m_Layer: 9
+  m_Name: Border 3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1197502907
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1197502906}
+  m_LocalRotation: {x: -0, y: -0.70710576, z: -0, w: 0.7071079}
+  m_LocalPosition: {x: 0.9300003, y: 0.5, z: -51.25}
+  m_LocalScale: {x: 2, y: 1.5307, z: 101.77335}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1695241265}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
+--- !u!65 &1197502908
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1197502906}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!23 &1197502909
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1197502906}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 176b3c5f6f6b30549bd0d9fcce8b585b, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &1197502910
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1197502906}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1 &1203452931
 GameObject:
   m_ObjectHideFlags: 0
@@ -33098,13 +33245,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 1203452936}
 --- !u!1 &1225406322
 GameObject:
@@ -33247,13 +33393,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 1225406327}
 --- !u!1 &1231888406
 GameObject:
@@ -33396,13 +33541,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 1231888411}
 --- !u!1 &1232851277
 GameObject:
@@ -33545,13 +33689,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 1232851282}
 --- !u!1 &1238152187
 GameObject:
@@ -33694,13 +33837,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 1238152192}
 --- !u!1 &1239118805
 GameObject:
@@ -33843,13 +33985,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 1239118810}
 --- !u!1 &1245294532
 GameObject:
@@ -33992,13 +34133,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 1245294537}
 --- !u!1 &1256073788
 GameObject:
@@ -34141,13 +34281,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 1256073793}
 --- !u!1 &1256440117
 GameObject:
@@ -34290,13 +34429,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 1256440122}
 --- !u!1 &1260206692
 GameObject:
@@ -34439,13 +34577,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 1260206697}
 --- !u!1 &1263152799
 GameObject:
@@ -34588,13 +34725,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 1263152804}
 --- !u!1 &1268798760
 GameObject:
@@ -34737,13 +34873,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 1268798765}
 --- !u!1 &1268841221
 GameObject:
@@ -34886,13 +35021,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 1268841226}
 --- !u!1 &1270805765
 GameObject:
@@ -35035,13 +35169,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 1270805770}
 --- !u!1 &1274959608
 GameObject:
@@ -35289,13 +35422,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 1275059836}
 --- !u!1 &1277273124
 GameObject:
@@ -35438,13 +35570,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 1277273129}
 --- !u!1 &1278590962
 GameObject:
@@ -35587,13 +35718,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 1278590967}
 --- !u!1 &1279849261
 GameObject:
@@ -35736,13 +35866,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 1279849266}
 --- !u!1 &1280374947
 GameObject:
@@ -35885,13 +36014,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 1280374952}
 --- !u!1 &1283550355
 GameObject:
@@ -36034,13 +36162,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 1283550360}
 --- !u!1 &1283737231
 GameObject:
@@ -36183,13 +36310,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 1283737236}
 --- !u!1 &1289114909
 GameObject:
@@ -36332,13 +36458,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 1289114914}
 --- !u!1 &1296395776
 GameObject:
@@ -36481,13 +36606,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 1296395781}
 --- !u!1 &1299197705
 GameObject:
@@ -36630,13 +36754,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 1299197710}
 --- !u!1 &1299709708
 GameObject:
@@ -36779,13 +36902,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 1299709713}
 --- !u!1 &1300488157
 GameObject:
@@ -36928,13 +37050,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 1300488162}
 --- !u!1 &1303681688
 GameObject:
@@ -37077,14 +37198,118 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 1303681693}
+--- !u!1 &1308450221
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1308450222}
+  - component: {fileID: 1308450225}
+  - component: {fileID: 1308450224}
+  - component: {fileID: 1308450223}
+  m_Layer: 9
+  m_Name: Border 1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1308450222
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1308450221}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -49.82, y: 0.5, z: 0}
+  m_LocalScale: {x: 2, y: 1.5307, z: 104.5019}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1695241265}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &1308450223
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1308450221}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!23 &1308450224
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1308450221}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 176b3c5f6f6b30549bd0d9fcce8b585b, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &1308450225
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1308450221}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1 &1311247732
 GameObject:
   m_ObjectHideFlags: 0
@@ -37226,13 +37451,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 1311247737}
 --- !u!1 &1317665883
 GameObject:
@@ -37458,13 +37682,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 1318490884}
 --- !u!1 &1329672928
 GameObject:
@@ -37607,13 +37830,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 1329672933}
 --- !u!1 &1332141676
 GameObject:
@@ -37756,13 +37978,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 1332141681}
 --- !u!1 &1333986375
 GameObject:
@@ -37905,13 +38126,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 1333986380}
 --- !u!1 &1335089130
 GameObject:
@@ -38054,13 +38274,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 1335089135}
 --- !u!1 &1335622934
 GameObject:
@@ -38203,13 +38422,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 1335622939}
 --- !u!1 &1353777638
 GameObject:
@@ -38352,13 +38570,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 1353777643}
 --- !u!1 &1354300355
 GameObject:
@@ -38501,13 +38718,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 1354300360}
 --- !u!1 &1358860456
 GameObject:
@@ -38650,13 +38866,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 1358860461}
 --- !u!1 &1362111596
 GameObject:
@@ -38799,13 +39014,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 1362111601}
 --- !u!1 &1366933946
 GameObject:
@@ -38948,13 +39162,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 1366933951}
 --- !u!1 &1372409312
 GameObject:
@@ -39097,13 +39310,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 1372409317}
 --- !u!1 &1375430084
 GameObject:
@@ -39246,13 +39458,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 1375430089}
 --- !u!1 &1378124134
 GameObject:
@@ -39395,13 +39606,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 1378124139}
 --- !u!1 &1383088156
 GameObject:
@@ -39544,13 +39754,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 1383088161}
 --- !u!1 &1386536372
 GameObject:
@@ -39693,13 +39902,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 1386536377}
 --- !u!1 &1392090279
 GameObject:
@@ -39842,13 +40050,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 1392090284}
 --- !u!1 &1399005475
 GameObject:
@@ -39991,13 +40198,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 1399005480}
 --- !u!1 &1402982046
 GameObject:
@@ -40140,13 +40346,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 1402982051}
 --- !u!1 &1403655591
 GameObject:
@@ -40289,13 +40494,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 1403655596}
 --- !u!1 &1405532802
 GameObject:
@@ -40438,13 +40642,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 1405532807}
 --- !u!1 &1407491526
 GameObject:
@@ -40587,13 +40790,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 1407491531}
 --- !u!1 &1410701291
 GameObject:
@@ -40736,13 +40938,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 1410701296}
 --- !u!1 &1410987861
 GameObject:
@@ -40885,13 +41086,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 1410987866}
 --- !u!1 &1423224803
 GameObject:
@@ -41034,13 +41234,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 1423224808}
 --- !u!1 &1424162360
 GameObject:
@@ -41183,13 +41382,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 1424162365}
 --- !u!1 &1426782381
 GameObject:
@@ -41332,13 +41530,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 1426782386}
 --- !u!1 &1427012949
 GameObject:
@@ -41481,13 +41678,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 1427012954}
 --- !u!1 &1427211296
 GameObject:
@@ -41630,13 +41826,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 1427211301}
 --- !u!1 &1431086238
 GameObject:
@@ -41779,13 +41974,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 1431086243}
 --- !u!1 &1434041630
 GameObject:
@@ -41928,13 +42122,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 1434041635}
 --- !u!1 &1434707971
 GameObject:
@@ -42077,13 +42270,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 1434707976}
 --- !u!1 &1437936968
 GameObject:
@@ -42226,13 +42418,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 1437936973}
 --- !u!1 &1442142022
 GameObject:
@@ -42375,13 +42566,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 1442142027}
 --- !u!1 &1445754117
 GameObject:
@@ -42524,13 +42714,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 1445754122}
 --- !u!1 &1451833363
 GameObject:
@@ -42673,13 +42862,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 1451833368}
 --- !u!1 &1457614336
 GameObject:
@@ -42822,13 +43010,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 1457614341}
 --- !u!1 &1464726372
 GameObject:
@@ -42971,13 +43158,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 1464726377}
 --- !u!1 &1471456586
 GameObject:
@@ -43120,13 +43306,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 1471456591}
 --- !u!1 &1474305770
 GameObject:
@@ -43269,13 +43454,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 1474305775}
 --- !u!1 &1480674425
 GameObject:
@@ -43501,13 +43685,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 1482444209}
 --- !u!1 &1482954763
 GameObject:
@@ -43650,13 +43833,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 1482954768}
 --- !u!1 &1484033233
 GameObject:
@@ -43799,13 +43981,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 1484033238}
 --- !u!1 &1484984202
 GameObject:
@@ -43948,13 +44129,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 1484984207}
 --- !u!1 &1491336883
 GameObject:
@@ -44097,13 +44277,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 1491336888}
 --- !u!1 &1494538278
 GameObject:
@@ -44246,13 +44425,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 1494538283}
 --- !u!1 &1500860683
 GameObject:
@@ -44395,13 +44573,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 1500860688}
 --- !u!1 &1503373951
 GameObject:
@@ -44544,13 +44721,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 1503373956}
 --- !u!1 &1504992593
 GameObject:
@@ -44693,13 +44869,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 1504992598}
 --- !u!1 &1510087542
 GameObject:
@@ -44842,13 +45017,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 1510087547}
 --- !u!1 &1521033520
 GameObject:
@@ -44991,14 +45165,118 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 1521033525}
+--- !u!1 &1528278683
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1528278684}
+  - component: {fileID: 1528278687}
+  - component: {fileID: 1528278686}
+  - component: {fileID: 1528278685}
+  m_Layer: 9
+  m_Name: Border 4
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1528278684
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1528278683}
+  m_LocalRotation: {x: -0, y: -0.70710576, z: -0, w: 0.7071079}
+  m_LocalPosition: {x: 0.9300003, y: 0.5, z: 51.08}
+  m_LocalScale: {x: 2, y: 1.5307, z: 102.24884}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1695241265}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
+--- !u!65 &1528278685
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1528278683}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!23 &1528278686
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1528278683}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 176b3c5f6f6b30549bd0d9fcce8b585b, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &1528278687
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1528278683}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1 &1532870709
 GameObject:
   m_ObjectHideFlags: 0
@@ -45140,13 +45418,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 1532870714}
 --- !u!1 &1533529893
 GameObject:
@@ -45289,13 +45566,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 1533529898}
 --- !u!1 &1537137365
 GameObject:
@@ -45438,13 +45714,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 1537137370}
 --- !u!1 &1546653264
 GameObject:
@@ -45587,13 +45862,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 1546653269}
 --- !u!1 &1548329618
 GameObject:
@@ -45736,13 +46010,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 1548329623}
 --- !u!1 &1555847998
 GameObject:
@@ -45885,13 +46158,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 1555848003}
 --- !u!1 &1556681109
 GameObject:
@@ -46034,13 +46306,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 1556681114}
 --- !u!1 &1561206608
 GameObject:
@@ -46183,13 +46454,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 1561206613}
 --- !u!1 &1576444204
 GameObject:
@@ -46332,13 +46602,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 1576444209}
 --- !u!1 &1577191627
 GameObject:
@@ -46481,14 +46750,45 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 1577191632}
+--- !u!1 &1581765649
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1581765650}
+  m_Layer: 0
+  m_Name: TrailParent
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1581765650
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1581765649}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1975663715}
+  m_Father: {fileID: 780733047}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1585247472
 GameObject:
   m_ObjectHideFlags: 0
@@ -46630,71 +46930,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 1585247477}
---- !u!1 &1591354105
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1591354106}
-  - component: {fileID: 1591354107}
-  m_Layer: 0
-  m_Name: Projectile
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1591354106
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1591354105}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 601741502}
-  m_RootOrder: -1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1591354107
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1591354105}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dc93dffd9aad68246a5ac819bc8a001b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  weaponStats:
-    weaponType: 1
-    fireRatePerSecond: 0.05
-    spread: {x: 0, y: 0}
-  destructionLayerMask:
-    serializedVersion: 2
-    m_Bits: 0
-  projectileStats:
-    projectileSpeed: 50
-    projectileLifetime: 1.5
-  poolStartSize: 0
-  projectilePrefab: {fileID: 0}
-  spawnParent: {fileID: 0}
 --- !u!1 &1593934045
 GameObject:
   m_ObjectHideFlags: 0
@@ -46941,13 +47183,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 1598974548}
 --- !u!1 &1611398728
 GameObject:
@@ -47090,13 +47331,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 1611398733}
 --- !u!1 &1612849589
 GameObject:
@@ -47239,13 +47479,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 1612849594}
 --- !u!1 &1613157289
 GameObject:
@@ -47388,13 +47627,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 1613157294}
 --- !u!1 &1616091831
 GameObject:
@@ -47537,13 +47775,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 1616091836}
 --- !u!1 &1625544273
 GameObject:
@@ -47686,13 +47923,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 1625544278}
 --- !u!1 &1629836680
 GameObject:
@@ -47835,13 +48071,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 1629836685}
 --- !u!1 &1639902751
 GameObject:
@@ -47984,13 +48219,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 1639902756}
 --- !u!1 &1643229658
 GameObject:
@@ -48133,13 +48367,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 1643229663}
 --- !u!1 &1652001387
 GameObject:
@@ -48282,13 +48515,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 1652001392}
 --- !u!1 &1668465524
 GameObject:
@@ -48431,13 +48663,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 1668465529}
 --- !u!1 &1673799004
 GameObject:
@@ -48580,13 +48811,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 1673799009}
 --- !u!1 &1678141444
 GameObject:
@@ -48729,13 +48959,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 1678141449}
 --- !u!1 &1678570424
 GameObject:
@@ -48878,13 +49107,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 1678570429}
 --- !u!1 &1682844748
 GameObject:
@@ -49027,13 +49255,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 1682844753}
 --- !u!1 &1686283991
 GameObject:
@@ -49176,13 +49403,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 1686283996}
 --- !u!1 &1687487660
 GameObject:
@@ -49325,13 +49551,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 1687487665}
 --- !u!1 &1688474372
 GameObject:
@@ -49474,13 +49699,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 1688474377}
 --- !u!1 &1695241264
 GameObject:
@@ -49518,6 +49742,10 @@ Transform:
   - {fileID: 472274010}
   - {fileID: 1593934046}
   - {fileID: 148945386}
+  - {fileID: 1308450222}
+  - {fileID: 497202154}
+  - {fileID: 1197502907}
+  - {fileID: 1528278684}
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -49693,13 +49921,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 1702000801}
 --- !u!1 &1704009670
 GameObject:
@@ -49842,13 +50069,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 1704009675}
 --- !u!1 &1705755209
 GameObject:
@@ -49991,13 +50217,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 1705755214}
 --- !u!1 &1716669774
 GameObject:
@@ -50140,13 +50365,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 1716669779}
 --- !u!1 &1717052239
 GameObject:
@@ -50289,13 +50513,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 1717052244}
 --- !u!1 &1723681438
 GameObject:
@@ -50438,13 +50661,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 1723681443}
 --- !u!1 &1725158964
 GameObject:
@@ -50587,13 +50809,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 1725158969}
 --- !u!1 &1728395636
 GameObject:
@@ -50736,13 +50957,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 1728395641}
 --- !u!1 &1733249217
 GameObject:
@@ -50885,13 +51105,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 1733249222}
 --- !u!1 &1733991399
 GameObject:
@@ -51034,13 +51253,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 1733991404}
 --- !u!1 &1743066749
 GameObject:
@@ -51183,13 +51401,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 1743066754}
 --- !u!1 &1753538786
 GameObject:
@@ -51332,13 +51549,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 1753538791}
 --- !u!1 &1763058551
 GameObject:
@@ -51513,13 +51729,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 1771751504}
 --- !u!1 &1788053973
 GameObject:
@@ -51662,13 +51877,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 1788053978}
 --- !u!1 &1799082113
 GameObject:
@@ -51811,13 +52025,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 1799082118}
 --- !u!1 &1803511859
 GameObject:
@@ -51960,13 +52173,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 1803511864}
 --- !u!1 &1808772623
 GameObject:
@@ -52109,13 +52321,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 1808772628}
 --- !u!1 &1812529537
 GameObject:
@@ -52258,13 +52469,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 1812529542}
 --- !u!1 &1814456935
 GameObject:
@@ -52407,13 +52617,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 1814456940}
 --- !u!1 &1815971174
 GameObject:
@@ -52556,13 +52765,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 1815971179}
 --- !u!1 &1819650813
 GameObject:
@@ -52705,13 +52913,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 1819650818}
 --- !u!1 &1821404072
 GameObject:
@@ -52854,13 +53061,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 1821404077}
 --- !u!1 &1828322459
 GameObject:
@@ -53003,13 +53209,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 1828322464}
 --- !u!1 &1838401829
 GameObject:
@@ -53152,13 +53357,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 1838401834}
 --- !u!1 &1839126991
 GameObject:
@@ -53301,13 +53505,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 1839126996}
 --- !u!1 &1845329738
 GameObject:
@@ -53481,13 +53684,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 1847323958}
 --- !u!1 &1849226058
 GameObject:
@@ -53630,13 +53832,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 1849226063}
 --- !u!1 &1849809018
 GameObject:
@@ -53779,13 +53980,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 1849809023}
 --- !u!1 &1855099395
 GameObject:
@@ -53928,13 +54128,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 1855099400}
 --- !u!1 &1873005589
 GameObject:
@@ -54077,13 +54276,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 1873005594}
 --- !u!1 &1875776223
 GameObject:
@@ -54226,13 +54424,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 1875776228}
 --- !u!1 &1878914598
 GameObject:
@@ -54375,13 +54572,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 1878914603}
 --- !u!1 &1879255353
 GameObject:
@@ -54524,13 +54720,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 1879255358}
 --- !u!1 &1881331394
 GameObject:
@@ -54673,13 +54868,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 1881331399}
 --- !u!1 &1882749255
 GameObject:
@@ -54822,13 +55016,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 1882749260}
 --- !u!1 &1892197450
 GameObject:
@@ -54971,13 +55164,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 1892197455}
 --- !u!1 &1895162812
 GameObject:
@@ -55120,13 +55312,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 1895162817}
 --- !u!1 &1898106076
 GameObject:
@@ -55269,13 +55460,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 1898106081}
 --- !u!1 &1908929661
 GameObject:
@@ -55418,13 +55608,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 1908929666}
 --- !u!1 &1925776629
 GameObject:
@@ -55567,13 +55756,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 1925776634}
 --- !u!1 &1926522186
 GameObject:
@@ -55716,13 +55904,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 1926522191}
 --- !u!1 &1936932249
 GameObject:
@@ -55865,13 +56052,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 1936932254}
 --- !u!1 &1938213900
 GameObject:
@@ -56014,13 +56200,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 1938213905}
 --- !u!1 &1943934695
 GameObject:
@@ -56268,13 +56453,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 1947828026}
 --- !u!1 &1951175350
 GameObject:
@@ -56417,13 +56601,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 1951175355}
 --- !u!1 &1953921903
 GameObject:
@@ -56566,13 +56749,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 1953921908}
 --- !u!1 &1961357480
 GameObject:
@@ -56715,13 +56897,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 1961357485}
 --- !u!1 &1962085301
 GameObject:
@@ -56864,13 +57045,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 1962085306}
 --- !u!1 &1964392201
 GameObject:
@@ -57013,13 +57193,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 1964392206}
 --- !u!1 &1967832142
 GameObject:
@@ -57162,13 +57341,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 1967832147}
 --- !u!1 &1968513879
 GameObject:
@@ -57311,13 +57489,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 1968513884}
 --- !u!1 &1971417253
 GameObject:
@@ -57460,14 +57637,181 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 1971417258}
+--- !u!1 &1975663714
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1975663715}
+  - component: {fileID: 1975663716}
+  - component: {fileID: 1975663717}
+  m_Layer: 0
+  m_Name: Trail
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1975663715
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1975663714}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1581765650}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!96 &1975663716
+TrailRenderer:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1975663714}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 0
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 0
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 0e4cc978fb11a3743aba3396ff8d67a1, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Time: 0.1
+  m_PreviewTimeScale: 1
+  m_Parameters:
+    serializedVersion: 3
+    widthMultiplier: 1.3496612
+    widthCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0.10975052
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.026960874
+        value: 0.03343964
+        inSlope: -1.3947895
+        outSlope: -1.3947895
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.46016377
+        outWeight: 0.16676076
+      - serializedVersion: 3
+        time: 0.10024768
+        value: 0
+        inSlope: -0.27756968
+        outSlope: -0.27756968
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    colorGradient:
+      serializedVersion: 2
+      key0: {r: 1, g: 1, b: 1, a: 1}
+      key1: {r: 1, g: 1, b: 1, a: 0.24313726}
+      key2: {r: 1, g: 1, b: 1, a: 0}
+      key3: {r: 0, g: 0, b: 0, a: 0}
+      key4: {r: 0, g: 0, b: 0, a: 0}
+      key5: {r: 0, g: 0, b: 0, a: 0}
+      key6: {r: 0, g: 0, b: 0, a: 0}
+      key7: {r: 0, g: 0, b: 0, a: 0}
+      ctime0: 0
+      ctime1: 43562
+      ctime2: 56090
+      ctime3: 0
+      ctime4: 0
+      ctime5: 0
+      ctime6: 0
+      ctime7: 0
+      atime0: 0
+      atime1: 42983
+      atime2: 0
+      atime3: 0
+      atime4: 0
+      atime5: 0
+      atime6: 0
+      atime7: 0
+      m_Mode: 0
+      m_ColorSpace: 0
+      m_NumColorKeys: 2
+      m_NumAlphaKeys: 2
+    numCornerVertices: 0
+    numCapVertices: 0
+    alignment: 0
+    textureMode: 1
+    textureScale: {x: 1, y: 1}
+    shadowBias: 0.5
+    generateLightingData: 0
+  m_MinVertexDistance: 0.1
+  m_MaskInteraction: 0
+  m_Autodestruct: 0
+  m_Emitting: 1
+  m_ApplyActiveColorSpace: 1
+--- !u!114 &1975663717
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1975663714}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5ea0e6e6ffaf8ec4794ab5dbc28a1862, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  trailRenderer: {fileID: 1975663716}
 --- !u!1 &1979236260
 GameObject:
   m_ObjectHideFlags: 0
@@ -57609,13 +57953,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 1979236265}
 --- !u!1 &1980160748
 GameObject:
@@ -57758,13 +58101,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 1980160753}
 --- !u!1 &1983956347
 GameObject:
@@ -57907,13 +58249,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 1983956352}
 --- !u!1 &1984362348
 GameObject:
@@ -58056,13 +58397,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 1984362353}
 --- !u!1 &1987770227
 GameObject:
@@ -58205,13 +58545,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 1987770232}
 --- !u!1 &1996055436
 GameObject:
@@ -58354,13 +58693,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 1996055441}
 --- !u!1 &1998525491
 GameObject:
@@ -58503,13 +58841,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 1998525496}
 --- !u!1 &2009051838
 GameObject:
@@ -58652,13 +58989,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 2009051843}
 --- !u!1 &2010148053
 GameObject:
@@ -58801,13 +59137,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 2010148058}
 --- !u!1 &2011624791
 GameObject:
@@ -58950,13 +59285,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 2011624796}
 --- !u!1 &2017504076
 GameObject:
@@ -59099,13 +59433,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 2017504081}
 --- !u!1 &2020290825
 GameObject:
@@ -59248,13 +59581,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 2020290830}
 --- !u!1 &2030945656
 GameObject:
@@ -59397,13 +59729,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 2030945661}
 --- !u!1 &2030970950
 GameObject:
@@ -59546,13 +59877,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 2030970955}
 --- !u!1 &2040012891
 GameObject:
@@ -59695,13 +60025,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 2040012896}
 --- !u!1 &2044673322
 GameObject:
@@ -59844,13 +60173,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 2044673327}
 --- !u!1 &2056800252
 GameObject:
@@ -59993,13 +60321,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 2056800257}
 --- !u!1 &2065302925
 GameObject:
@@ -60142,13 +60469,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 2065302930}
 --- !u!1 &2073677289
 GameObject:
@@ -60291,13 +60617,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 2073677294}
 --- !u!1 &2086483432
 GameObject:
@@ -60440,13 +60765,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 2086483437}
 --- !u!1 &2095942334
 GameObject:
@@ -60589,13 +60913,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 2095942339}
 --- !u!1 &2109128778
 GameObject:
@@ -60843,13 +61166,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 2115799412}
 --- !u!1 &2116083469
 GameObject:
@@ -60992,13 +61314,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 2116083474}
 --- !u!1 &2120104844
 GameObject:
@@ -61141,13 +61462,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 2120104849}
 --- !u!1 &2121390608
 GameObject:
@@ -61290,13 +61610,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 2121390613}
 --- !u!1 &2127286810
 GameObject:
@@ -61439,13 +61758,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 2127286815}
 --- !u!1 &2128328387
 GameObject:
@@ -61588,13 +61906,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 2128328392}
 --- !u!1 &2133413606
 GameObject:
@@ -61737,13 +62054,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 2133413611}
 --- !u!1 &2134235710
 GameObject:
@@ -61886,13 +62202,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 2134235715}
 --- !u!1 &2136264573
 GameObject:
@@ -62035,13 +62350,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 2136264578}
 --- !u!1 &2138313498
 GameObject:
@@ -62184,13 +62498,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 2138313503}
 --- !u!1 &2141963063
 GameObject:
@@ -62333,11 +62646,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f592d322269acb4891a92c22ef3675e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 244886234}
-  maxDelta: 1
-  moveSpeed: 2
+  enemyManager: {fileID: 0}
   updateFrequency: 1
   projectilesMask:
     serializedVersion: 2
     m_Bits: 1024
+  health: 2
   agent: {fileID: 2141963068}

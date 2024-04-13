@@ -1,25 +1,23 @@
 using UnityEngine;
 using UnityEngine.AI;
 
-public class AbstractEnemy : MonoBehaviour
+public class AbstractEnemy : MonoBehaviour, IPoolObject<AbstractEnemy>
 {
-    [SerializeField] private Transform playerTransform;
+    [Header("Components")]
+    [SerializeField] public EnemyManager enemyManager;
 
     [Header("Stats")]
-    [SerializeField] private float maxDelta;
-    [SerializeField] private float moveSpeed;
     [SerializeField] private float updateFrequency;
-
     [SerializeField] private LayerMask projectilesMask;
-    private float lastUpdateTime;
+    [SerializeField] private int health;
 
+    private float lastUpdateTime;
 
     public NavMeshAgent agent;
 
     private void Start()
     {
         // agent = GetComponent<NavMeshAgent>();
-        // agent.SetDestination(playerTransform.position);
     }
 
     public void SetDestination(Vector3 pos, float time)
@@ -32,11 +30,40 @@ public class AbstractEnemy : MonoBehaviour
 
     private void OnCollisionEnter(Collision other)
     {
-        print("collided");
+        // Projectiles handling
+        // TODO should this be here? (NO)
 
-        if (projectilesMask.Contains(other.gameObject.layer))
+        enemyManager.RegisterHit(other, this);
+    }
+
+    public void RegisterHit(int damage)
+    {
+        health -= damage;
+
+        if (health <= 0)
         {
-            gameObject.SetActive(false);
+            agent.enabled = false;
+            GetComponent<MeshRenderer>().enabled = false;
+            // Destroy(gameObject);
         }
+    }
+
+    public AbstractEnemy Enable()
+    {
+        return this;
+    }
+
+    public void Disable()
+    {
+    }
+
+    public Transform GetTransform()
+    {
+        return transform;
+    }
+
+    public GameObject GetGameObject()
+    {
+        return gameObject;
     }
 }

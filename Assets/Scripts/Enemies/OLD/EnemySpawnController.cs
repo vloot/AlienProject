@@ -31,11 +31,13 @@ public class EnemySpawnController : MonoBehaviour
         {
             if (updateEven && i % 2 == 0)
             {
-                enemies[i].SetDestination(playerPos, time);
+                if (enemies[i].agent.enabled)
+                    enemies[i].SetDestination(playerPos, time);
             }
             else if (!updateEven && i % 2 != 0)
             {
-                enemies[i].SetDestination(playerPos, time);
+                if (enemies[i].agent.enabled)
+                    enemies[i].SetDestination(playerPos, time);
             }
         }
 
